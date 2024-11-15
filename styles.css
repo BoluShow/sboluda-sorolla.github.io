@@ -1,0 +1,205 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Banner */
+.banner {
+    background-image: url('fondo.jpg'); /* Agrega la imagen de fondo aquí */
+    background-size: cover;
+    color: #000; /* Cambiado a negro */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #000; /* Cambiado a negro */
+}
+
+.header-content nav ul {
+    list-style: none;
+}
+
+.header-content nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-content nav ul li a {
+    color: #000; /* Cambiado a negro */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Div de cookies */
+.cookies {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.cookies button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Sección Sobre Mí */
+.sobre-mi {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.sobre-mi .bio {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.sobre-mi .redes-sociales a {
+    display: inline-block;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sobre-mi .redes-sociales a:hover {
+    color: #007bff;
+}
+
+/* Galería de Proyectos */
+.proyectos {
+    padding: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.proyecto {
+    width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.proyecto h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.proyecto p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Sección de Habilidades y Conocimientos */
+.habilidades {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.habilidad {
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.habilidad h3 {
+    font-size: 1.5em;
+}
+
+.progreso {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.barra {
+    height: 100%;
+    background-color: #007bff;
+    width: 0;
+    transition: width 1s;
+}
+
+/* Sección de Contacto */
+.contacto {
+    padding: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.contacto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contacto input, .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Pie de Página */
+.footer {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
